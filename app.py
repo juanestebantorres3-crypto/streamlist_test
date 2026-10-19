@@ -52,3 +52,5 @@ if start_button:
     st.session_state['df_experiment_results'] = st.session_state['df_experiment_results'].reset_index(drop=True)
 
 st.write(st.session_state['df_experiment_results'])
+
+print("testeo upload")
